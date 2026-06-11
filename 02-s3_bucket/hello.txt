@@ -1,0 +1,2 @@
+Hello from OpenTofu and LocalStack!
+This file was successfully uploaded to our local S3 bucket.
