@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# -------------------------------------------------------------------------
+# OpenTofu / Terraform
+# -------------------------------------------------------------------------
+# Local directories and state files (contain sensitive data)
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Secret variable files (NEVER commit these!)
+*.tfvars
+*.tfvars.json
